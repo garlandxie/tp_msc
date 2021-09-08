@@ -35,10 +35,10 @@ max(specc$richness)
 plot(specc)
 
 # species accumulation curve: extrapolation ----
-
 fitspecc <- fitspecaccum(
   specc, "lomolino"
 )
 
 coef(fitspecc)
 predict(fitspecc)
+
